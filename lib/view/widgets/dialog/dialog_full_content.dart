@@ -52,10 +52,10 @@ class _DialogFullContentState extends State<DialogFullContent> {
           // vertical: 20,
           horizontal: 20,
         ),
-        height: 430,
+        height: 200,
         width: 10000,
         alignment: Alignment.bottomCenter,
-        child: Column(
+        child: ListView(
           children: [
             Container(
                 alignment: Alignment.center,

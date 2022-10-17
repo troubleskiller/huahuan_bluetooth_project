@@ -117,6 +117,7 @@ class _MeasureDetailScreenState extends State<MeasureDetailScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset:false,
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: const Text(
